@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27DCD2A81C8D7769008D74F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27DCD2A71C8D7769008D74F4 /* main.c */; };
+		27DCD2B01C8D77D2008D74F4 /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 27DCD2AE1C8D77D2008D74F4 /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		27DCD2A41C8D7769008D74F4 /* OpenGLPerspective */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLPerspective; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DCD2A71C8D7769008D74F4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27DCD2AE1C8D77D2008D74F4 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = View.c; sourceTree = "<group>"; };
+		27DCD2AF1C8D77D2008D74F4 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				27DCD2A71C8D7769008D74F4 /* main.c */,
+				27DCD2AE1C8D77D2008D74F4 /* View.c */,
+				27DCD2AF1C8D77D2008D74F4 /* View.h */,
 			);
 			path = OpenGLPerspective;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DCD2B01C8D77D2008D74F4 /* View.c in Sources */,
 				27DCD2A81C8D7769008D74F4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
